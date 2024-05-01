@@ -1,0 +1,20 @@
+*{
+  font-family: 'tahoma',sans-serif;
+  color:white;
+  font-size:20px;
+  text-align:center;
+ 
+}
+
+.card{width:200px;
+      margin:20px auto;
+      padding: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;      
+}
+.card{
+  background-color: teal;
+  min-height: 250px;
+}
+.loading-text{
+  margin-top: 20px;
+}

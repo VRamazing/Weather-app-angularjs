@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Local Weather App- Angular</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container" ng-app="myApp" ng-controller="myCtrl"> 
+         
+           
+              <div class="card" ng-style="style">
+                <div class="card-content white-text">
+                  <div class= "quote-text"> 
+		<p><span class="card-content loading-text" ng-hide="temp">
+		  Loading....
+		</p>
+            				<br>
+                     
+                      <p>{{city}}<span ng-show="city">,</span>{{country}}</p>
+                      <p>{{temp}}<span ng-show="temp"> &ring;C</span></p>
+                      <p>{{weather}}</p>
+                      <img src = "{{icon}}" ng-show="icon"></img>
+                      
+                 
+                      
+                      
+                 </div><!--quote text-->
+                </div><!--card content-->
+
+                
+              </div><!--card-->
+          
+      
+          <!-- Place this tag in your head or just before your close body tag. -->
+
+
+    </div><!--container-->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
