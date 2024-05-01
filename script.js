@@ -4,7 +4,7 @@ var app = angular.module("myApp", []);
 
 app.controller("myCtrl", function($scope,$http) {
      var lat,long;
-     var url = "http://api.weatherstack.com/current?access_key=65650ae6a77f12583d709123dc8bbd25&query=";
+     var url = "https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=65650ae6a77f12583d709123dc8bbd25&query=";
         function IconGen(desc) {
                     var desc = desc.toLowerCase();
                     switch (desc) {
